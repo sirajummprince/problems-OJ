@@ -4,6 +4,10 @@ using namespace std;
 int main(){
     double A,B,C;
     cin>> A >> B >> C;
-    printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRECTANGULO: %.3f\n",(A*C)/2,pi*C*C,((A+B)*C)/2,B*B,A*B);
+    printf("TRIANGULO: %.3f\n",(A*C)/2);
+    printf("CIRCULO: %.3f",pi*C*C);
+    printf("TRAPEZIO: %.3f",((A+B)*C)/2);
+    printf("QUADRADO: %.3f",B*B);
+    printf("RECTANGULO: %.3f\n",A*B);
     return 0;
 }
