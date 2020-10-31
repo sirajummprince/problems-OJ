@@ -2,7 +2,7 @@
 using namespace std;
 #define pi 3.14159
 int main(){
-    double A,B,C;
+    float A,B,C;
     cin>> A >> B >> C;
     printf("TRIANGULO: %.3f\n",(A*C)/2);
     printf("CIRCULO: %.3f\n",pi*C*C);
